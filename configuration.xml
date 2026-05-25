@@ -1,0 +1,37 @@
+<Configuration ID="37aa7efb-c7a3-4ffe-b50a-789635001087">
+  <Add OfficeClientEdition="64" Channel="PerpetualVL2024" MigrateArch="TRUE">
+    <Product ID="ProPlus2024Volume" PIDKEY="">
+      <Language ID="en-us" />
+      <Language ID="ro-ro" />
+      <Language ID="MatchPreviousMSI" />
+      <ExcludeApp ID="Lync" />
+      <ExcludeApp ID="Outlook" />
+    </Product>
+    <Product ID="VisioPro2024Volume" PIDKEY="">
+      <Language ID="en-us" />
+      <Language ID="ro-ro" />
+      <Language ID="MatchPreviousMSI" />
+      <ExcludeApp ID="Lync" />
+      <ExcludeApp ID="Outlook" />
+    </Product>
+    <Product ID="ProjectPro2024Volume" PIDKEY="">
+      <Language ID="en-us" />
+      <Language ID="ro-ro" />
+      <Language ID="MatchPreviousMSI" />
+      <ExcludeApp ID="Lync" />
+      <ExcludeApp ID="Outlook" />
+    </Product>
+    <Product ID="ProofingTools">
+      <Language ID="en-us" />
+      <Language ID="ro-ro" />
+    </Product>
+  </Add>
+  <Property Name="SharedComputerLicensing" Value="0" />
+  <Property Name="FORCEAPPSHUTDOWN" Value="TRUE" />
+  <Property Name="DeviceBasedLicensing" Value="0" />
+  <Property Name="SCLCacheOverride" Value="0" />
+  <Property Name="AUTOACTIVATE" Value="1" />
+  <Updates Enabled="TRUE" />
+  <RemoveMSI />
+  <Display Level="Full" AcceptEULA="TRUE" />
+</Configuration>
